@@ -5,7 +5,7 @@ body{}
 header{width:100%;height:auto;overflow:hidden;position:fixed;left:0;top:0;z-index:99;transition:all .5s;}
 header.on{top:-100px;}
 header .rela{width:1155px;height:100px;overflow:hidden;margin:0 auto;display:flex;justify-content:flex-start;align-items:center;}
-.section{width:100%;height:auto;overflow:hidden;transition:all .5s;}
+.section{width:100%;height:auto;overflow:hidden;transition:all .5s;background:#fff;}
 .section .rela{width:1155px;height:780px;margin:0 auto;position:relative;}
 #visual-wrap{background:url(../image/bg/bg-visual-wrap.jpg) no-repeat left top;background-size:cover;}
 #visual-wrap .rela{display:flex;justify-content:center;align-items:flex-start;flex-direction:column;}
@@ -75,7 +75,7 @@ video{outline:none;}
 #download-wrap.on .rela .cont h2{opacity:1;transform:translateX(0px);}
 #download-wrap.on .rela .cont .pic{opacity:1;transform:translateX(0px);}
 #download-wrap.on .rela .cont .btn-wrap{opacity:1;transform:translateX(0px);}
-#download-wrap .rela .cont .btn-wrap button{transition:all 1.5s;border-radius:36px;margin-right:50px;display:flex;justify-content:center;align-items:center;width:291px;height:71px;overflow:hidden;border:0;background:transparent;}
+#download-wrap .rela .cont .btn-wrap button{transition:all 1.5s;border-radius:36px;margin-right:30px;display:flex;justify-content:center;align-items:center;height:71px;overflow:hidden;border:0;background:transparent;}
 #download-wrap .rela .cont .btn-wrap button:hover{transform:translateY(-3px)}
 #download-wrap .rela .cont .btn-wrap button img{max-width:100%;max-height:100%;}
 #download-wrap .rela video{position:absolute;right:28px;top:30px;width:272px;border-radius:30px;}
