@@ -27,7 +27,7 @@ header .rela{width:1155px;height:100px;overflow:hidden;margin:0 auto;display:fle
 #shopping-wrap .rela .cont .desc strong{font-weight:700;font-size:20px;color:#304067;}
 #shopping-wrap.on .rela .cont h2{opacity:1;transform:translateX(0px);}
 #shopping-wrap.on .rela .cont .desc{opacity:1;transform:translateX(0px);}
-#shopping-wrap .rela video{position:absolute;right:166px;top:70px;width:272px;border-radius:30px;}
+#shopping-wrap .rela video{position:absolute;right:166px;top:32px;width:272px;border-radius:30px;}
 #shopping-wrap .bubble-list01{opacity:0;position:absolute;width:0px;height:0px;border-radius:50%;background:#f5f6f8;left:197px;top:199px;transition:all 1.5s;}
 #shopping-wrap .bubble-list02{opacity:0;position:absolute;width:0px;height:0px;border-radius:50%;background:#f5f6f8;left:397px;top:112px;transition:all 1.5s;}
 #shopping-wrap .bubble-list03{opacity:0;position:absolute;width:0px;height:0px;border-radius:50%;background:#f5f6f8;left:540px;top:545px;transition:all 1.5s;}
@@ -37,14 +37,14 @@ header .rela{width:1155px;height:100px;overflow:hidden;margin:0 auto;display:fle
 video{outline:none;}
 #wiggler-wrap{background:#f5f6f8;}
 #wiggler-wrap .rela{display:flex;justify-content:center;align-items:center;}
-#wiggler-wrap .video-wrap{opacity:0;transform:translateY(50px);transition:all 2s;width:386px;height:573px;overflow:hidden;position:relative;background:url(../image/bg/bg-wiggler-wrap.png) no-repeat center center;background-size:386px 573px;}
+#wiggler-wrap .video-wrap{opacity:0;transform:translateY(50px);transition:all 2s;width:386px;height:700px;overflow:hidden;position:relative;background:url(../image/bg/bg-wiggler-wrap.png) no-repeat center center;background-size:386px 700px;}
 #wiggler-wrap.on .video-wrap{opacity:1;transform:translateY(0px);}
 #wiggler-wrap .rela .cont{flex:1;width:100%;height:auto;}
 #wiggler-wrap .rela .cont h2{opacity:0;transform:translateX(50px);transition:all .7s;text-align:right;width:100%;height:auto;font-size:55px;color:#304067;font-weight:800;}
 #wiggler-wrap .rela .cont .desc{opacity:0;transform:translateX(50px);transition:all 1.5s;line-height:1.5em;text-align:right;margin-top:59px;width:100%;height:auto;font-size:20px;color:#304067;font-weight:400;}
 #wiggler-wrap.on .rela .cont h2{opacity:1;transform:translateX(0px);}
 #wiggler-wrap.on .rela .cont .desc{opacity:1;transform:translateX(0px);}
-#wiggler-wrap .rela video{position:absolute;left:28px;top:33px;width:270px;border-radius:30px;}
+#wiggler-wrap .rela video{position:absolute;left:28px;top:80px;width:270px;border-radius:30px;}
 .balloon-list01{opacity:0;position:absolute;left:400px;top:179px;transition:all 1.5s;}
 .balloon-list02{opacity:0;position:absolute;left:600px;top:463px;transition:all 1.5s;}
 .bubble-list01{opacity:0;position:absolute;width:0px;height:0px;border-radius:50%;background:#fff;left:480px;top:270px;transition:all 1.5s;}
@@ -111,7 +111,7 @@ footer .rela ul li button:hover{transform:translateY(-3px)}
     #shopping-wrap .rela .cont .desc{text-align:center;margin-bottom:55px;font-size:11px;}
     #shopping-wrap .rela .cont .desc strong{font-size:11px;}
     #shopping-wrap .video-wrap{background:url(../image/bg/bg-shopping-wrap-m.jpg) no-repeat center bottom;background-size:300px 330px;margin-right:0;position:absolute;width:300px;height:330px;left:50%;margin-left:-150px;top:103px;}
-    #shopping-wrap .rela video{right:83px;top:34px;width:136px;border-radius:20px;}
+    #shopping-wrap .rela video{right:83px;top:22px;width:136px;border-radius:20px;}
     #shopping-wrap .bubble-list01{z-index:30;left:32px;top:33px;}
     #shopping-wrap .bubble-list02{z-index:30;left:auto;right:16px;top:103px;}
     #shopping-wrap .bubble-list03{z-index:30;left:58px;top:auto;bottom:32px;}
@@ -122,7 +122,7 @@ footer .rela ul li button:hover{transform:translateY(-3px)}
     #wiggler-wrap .rela .cont{display:flex;justify-content:flex-end;align-items:center;flex-direction:column;height:580px;position:relative;}
     #wiggler-wrap .rela .cont h2{position:absolute;left:0;top:58px;font-size:18px;text-align:center;color:#304067;}
     #wiggler-wrap .video-wrap{background:url(../image/bg/bg-wiggler-wrap-m.jpg) no-repeat center bottom;background-size:300px 330px;margin-right:0;position:absolute;width:300px;height:330px;left:50%;margin-left:-150px;top:103px;}
-    #wiggler-wrap .rela video{left:auto;right:83px;top:34px;width:136px;border-radius:20px;}
+    #wiggler-wrap .rela video{left:auto;right:83px;top:24px;width:136px;border-radius:20px;}
     #wiggler-wrap .rela .cont .desc{text-align:center;margin-bottom:55px;font-size:11px;}
     #wiggler-wrap .bubble-list01{top:auto;bottom:141px;left:auto;right:31px;}
     #wiggler-wrap.on .bubble-list01{width:35px;height:35px;}
